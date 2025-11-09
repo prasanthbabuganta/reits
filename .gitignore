@@ -1,0 +1,52 @@
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+
+# Backend
+backend/target/
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+backend/logs/
+*.log
+
+# Admin Panel
+admin-panel/node_modules/
+admin-panel/build/
+admin-panel/.env
+admin-panel/npm-debug.log*
+admin-panel/yarn-debug.log*
+admin-panel/yarn-error.log*
+
+# Mobile App
+mobile-app/node_modules/
+mobile-app/.expo/
+mobile-app/dist/
+mobile-app/npm-debug.*
+mobile-app/*.jks
+mobile-app/*.p8
+mobile-app/*.p12
+mobile-app/*.key
+mobile-app/*.mobileprovision
+mobile-app/*.orig.*
+mobile-app/web-build/
+
+# Docker
+docker-compose.override.yml
+
+# Database
+*.sql.backup
+*.db
+
+# OS
+.DS_Store
+Thumbs.db
